@@ -1,3 +1,3 @@
 build
-.cmd
-.sh
+*.cmd
+*.sh
