@@ -21,7 +21,8 @@ namespace Sophus {
         ceres::LocalParameterization* LocalParamSE3 =
         new ceres::AutoDiffLocalParameterization<Sophus::SE3Plus,
         Sophus::SE3d::num_parameters, Sophus::SE3d::DoF>;
-
+        
+        return LocalParamSE3;
     }
 }  // namespace Sophus
 
